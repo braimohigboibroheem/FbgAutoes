@@ -1,5 +1,5 @@
 import React from 'react'
-import './Car.css'
+import './car.css'
 import image1 from '../../../assets/image1.svg'
 
 
