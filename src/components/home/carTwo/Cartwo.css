@@ -1,0 +1,145 @@
+.oko{margin-top: 80px;}
+
+.tesla{position: relative;}
+
+/* 
+.ela {
+    text-align: center;
+  
+    font-family: "Poppins", sans-serif; 
+  
+    text-align: center;
+    border-radius:10px ;
+    
+ 
+   
+    color: white;
+    overflow: hidden;
+
+} */
+
+.ela {position: absolute;
+    text-align: center;
+   
+    padding: 20px;
+    bottom: 200px;
+    right: 20%;
+    width:700px;
+    padding: 60px;
+    border-radius: 50px;
+    color: white;
+    overflow: hidden;
+    font-size: 40px;   
+     font-family: "Poppins", sans-serif; 
+}
+
+/* Animate the heading */
+.ela h2, .ela h4 {
+    margin: 0;
+    animation: driveEffect 2s ease-in-out, glow 3s ease-in-out infinite alternate;
+    display: inline-block;
+    position: relative;
+}
+
+/* Driving motion effect */
+@keyframes driveEffect {
+    0% {
+        transform: translateX(-100%) translateY(2px) rotate(-2deg); /* Start from off-screen with slight tilt */
+        opacity: 0;
+    }
+    30% {
+        transform: translateX(10px) translateY(-2px) rotate(1deg); /* Bounce up slightly */
+        opacity: 1;
+    }
+    60% {
+        transform: translateX(0) translateY(2px) rotate(0); /* Move into position */
+    }
+    100% {
+        transform: translateX(0) translateY(0) rotate(0); /* Settle in place */
+    }
+}
+
+/* Glow effect */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #1abc9c, 0 0 10px #16a085, 0 0 15px #1abc9c;
+    }
+    100% {
+        text-shadow: 0 0 15px #1abc9c, 0 0 20px #16a085, 0 0 25px #1abc9c;
+    }
+}
+
+/* Shimmer effect */
+.ela::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    animation: shimmer 3s linear infinite;
+}
+
+/* Shimmering light */
+@keyframes shimmer {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .tes{
+        height: 180px;
+    width: 130vw;}
+
+    .ela {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      
+      .ela h2 {
+        font-size: 40px;
+        animation: carMove 3s linear infinite;
+        position: relative;
+        margin: 0;
+      }
+      
+      .ela h4 {margin-right: 80px;
+        font-size: 20px;
+     text-align: start;
+        margin-top: -170px;
+      }
+      
+      /* Animation */
+      @keyframes carMove {
+        0% {
+          transform: translateX(-100%);
+        }
+        50% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      
+    
+    
+   
+    
+
+
+    
+}

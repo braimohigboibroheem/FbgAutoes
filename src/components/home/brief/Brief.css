@@ -1,0 +1,144 @@
+.who{margin-top: 80px;
+    display: flex;
+    gap: 20px;
+   
+justify-content: space-between;}
+
+.we{padding: 40px;
+    font-family: "Poppins", sans-serif;
+width: 630px;
+height: 350px;}
+
+.we h1{ padding: 15px;
+font-size: 50px;}
+
+.we p{font-size: 25px;
+letter-spacing: 1px;}
+
+
+.are{ padding: 10px;
+height: 450px;
+width: 500px;
+}
+
+
+
+.we button{ margin-top: 25px;
+    height: 40px;
+width: 130px;
+margin:20px;
+font-weight: bold;
+border-radius: 5px;
+text-align: center;
+}
+
+.gstart1{background-color: yellow; 
+    border: none;
+    color: white;}
+
+    .learnm1{background-color: transparent;
+    border: 1px solid black;
+color: black;}
+
+.gstart1:hover{transform: rotate(20deg);
+color: red;}
+
+
+.learnm1:hover{transform: scale(0.5, 0.7);
+    color: red;}
+
+    /* rocket */
+    .rocket{
+    margin-top: 100px;
+gap: 30px;
+background-color: rgba(236, 241, 247, 1);}
+
+.irkt{margin-top: 0%;
+    height: 520px;
+width: 564px;}
+
+.shift{
+ display: flex;    padding: 50px;}
+    
+
+    .mission{ display: flex;
+        gap: 10px;
+        width: 540px;
+    height: 160px;}
+
+.vision{display: flex;
+    gap: 10px;
+    margin-top: 150px;
+    width: 540px;
+    height: 160px;}
+
+.rkt h2{padding: 10px;
+font-size: 29px;}
+.rkt p{font-size: 23px;
+padding: 5px;}
+
+@media (max-width:768px){
+    .who{margin-top: 10px;
+        padding: 10px;
+        gap: 1px;}
+
+        
+.we{padding: 2px;
+
+height: 250px;}
+
+.we h1{ padding: 1px;
+font-size: 15px;}
+
+.we p{font-size: 10px;
+letter-spacing: 1px;}
+
+
+.are{ padding: 0px;
+height: 350px;
+width: 200px;
+}
+
+.gstart1{display: none;}
+
+
+.rocket{
+    margin-top: 0px;
+gap: 0px;
+background-color: rgba(236, 241, 247, 1);}
+
+.irkt{margin-top: 0%;
+    height: 160px;
+width: 70px;}
+
+.shift{
+ display: flex;    
+ padding: 1px;}
+
+ 
+   
+       .mission{ display: flex;
+           gap: 2px;
+           width: 260px;
+       height: 90px;}
+
+       .mission img{width: 30px;}
+       .vision img{width: 30px;}
+   
+   .vision{display: flex;
+       gap:2px;
+       margin-top: 150px;
+       width: 540px;
+       height: 160px;}
+
+       
+.rkt h2{padding: 10px;
+    font-size: 19px;}
+
+    .rkt p{font-size: 15px;
+    padding: 3px;
+    font-weight: 500;
+width: 250px;}
+
+
+}

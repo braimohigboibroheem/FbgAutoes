@@ -1,0 +1,12 @@
+.guy{background-color: #f5f9ff;
+    margin-top: 3%;}
+
+    .guy1{margin-left: 60px;
+    width: 90vw; } 
+    
+    @media (max-width:768px) {
+        
+    .guy1{margin-left: 0px;
+        width: 100vw; } 
+        
+    }

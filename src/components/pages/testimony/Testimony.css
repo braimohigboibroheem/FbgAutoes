@@ -1,0 +1,64 @@
+
+.flt{text-align: center; background-color: #e7f0fa;}
+
+.flt h2{
+padding: 40px;}
+
+.testimony{display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.mony{ background-color: white; 
+    font-family: "Poppins", sans-serif;
+
+height: 190px;
+padding: 30px;
+width: 300px;
+}
+
+hr{margin: 20px;
+border: 1px solid yellow;}
+
+
+.mat {
+    margin-top: 40px;}
+
+.mony:hover{transform: scale(1.1);}
+
+
+
+@media (max-width:768px){
+ 
+   
+
+.flt h2{font-size: 22px;
+padding: 10px;}
+
+.testimony{display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.mony{ 
+
+height: 210px;
+padding: 10px;
+width: 300px;
+}
+
+hr{margin: 15px;
+border: 1px solid yellow;}
+
+
+.mat {
+    margin-top: 10px;}
+
+.mony:hover{transform: scale(1.1);}
+
+
+
+
+}
